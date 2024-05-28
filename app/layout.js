@@ -21,14 +21,12 @@ export const metadata = {
     "Luxirious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautfiull mountains and dark forests.",
 };
 
-console.log(josefin);
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
         style={josefin}
-        className={`bg-primary-950 text-primary-100 min-h-screen flex flex-col ${josefin.className}`}
+        className={`bg-primary-950 text-primary-100 antialiased min-h-screen flex flex-col ${josefin.className}`}
       >
         <Header />
         <div className="flex-1 px-8 py-12">
