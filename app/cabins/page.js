@@ -6,6 +6,14 @@ export const metadata = {
   title: "Cabins",
 };
 
+// ISC
+
+// This makes the whole route dynamic when set to 0 so that i don't cache data at build time when being static
+// when value > 0 it means we are using ISC Incremental static regeneration.
+
+// export const revalidate = 0;
+export const revalidate = 3600;
+
 function page() {
   // CHANGE
 
