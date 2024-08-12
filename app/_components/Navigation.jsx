@@ -36,6 +36,7 @@ export default async function Navigation() {
                 width={500}
                 height={500}
                 className="w-8 h-8 rounded-full"
+                referrerPolicy="no-referrer"
               />
             )}
 
